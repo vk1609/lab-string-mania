@@ -52,43 +52,30 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 
 ## Progression - 1 
-1. ***Create a class called StringBasic inside the utility package.***
-2. ***
+1. ***Go to StringMethod class and create the following methods.***
+   - ***Write a method to convert the String to lowercase.***
+   - ***Write a method to convert the String to uppercase.***
+   - ***Write a method to find the first character in the string.***
+   - ***Write a method to return string length.***
+   - ***Write a method to trim the input string.*** 
+2. ***All the methods should return the value as string.***
 
-## Progression - 2
-1. ***Create an Abstract class BasicEligibility in the utility package***
-2. ***Create an abstract method - abstract boolean basicEligibilityCheck (User user)***
+## Progression - 2 
+1. ***Go to StringBoolean class and create the following methods.***
+   - ***Write a method to check if the string1 contains string2.***
+   - ***Write a method to to check if the string starts with the given letter.***
+   - ***Write a method to to check if the string end with the given letter.***
+   - ***Write a method to to check if two strings are equal.***
+   - ***Write a method to to check if two strings are equal by ignoring the case. for example prograd && PROgrAD should return true.*** 
+2. ***All the methods should return the value as boolean.***
 
-## Progression - 3
-1. ***Create an interface EligibilityInterface in the utility package***
-2. ***Create a method in interface - boolean checkUser (User user)***
-3. ***Create a method in interface - boolean checkQuizAnswer (String points)***
+## Progression - 2 
+1. ***Go to StringBoolean class and create the following methods.***
+   - ***Write a method to concatenate two strings.***
+   - ***Write a method to split the first string based on the second string value.***
+   - ***Write a method to find the index value of the given character in the first string.*** 
+2. ***All the methods should return the value as String.***
 
-## Progression - 4
-1. ***Create a class called EligibilityCheck which extends the abstract class BasicEligibility and implements EligibilityInterface***
-2. ***Implement the method basicEligibilityCheck (User user)***
-3. ***The basicEligibilityCheck method should in turn invoke 2 methods checkUser(User user) ana checkQuizAnswers(String points)***
-4. ***Return true if the candidate is eligible for space journey, return false otherwise.***
-
-## Progression - 5
-1. ***checkUser(User user) method is used to check whether the user is eligible for space journey or not.***
-2. ***A person is eligible if his (18 <= age <= 35, (155 <=height<=170 ) , (55<= weight <= 90) and Country == ProGrad.***
-3. ***Return true if the person is eligible and return false otherwise.***
-
-## Progression - 6
-1. ***checkQuiz(String points) method is used to check whether the candidate has cleared the assessment or not.***
-2. ***A candidate clears the test only if he scores more than 80.***
-3. ***Return true if he scores more than 80 else false.***
-4. ***Convert the String to an Integer.***
-
-## Progression - 7
-1. ***Create an object for the User class and pass the input arguments to the contructor.***
-2. ***Create an object for the EligibilityCheck class in EligibilityViewController.***
-3. ***Call the basicEligibilityCheck(user) method with the object created.***
-4. ***Store the return value in a boolean variable spaceEligible.***
-5. ***Create an object for the EligibilityCheck class in Eligibility.***
-3. ***Call the checkQuizAnswers(String points) method with the object created.***
-4. ***Store the return value in a boolean variable spaceEligible.***
 
 
 Happy Coding ProGrad ❤️
