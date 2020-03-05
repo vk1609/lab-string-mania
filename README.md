@@ -29,8 +29,11 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Do not modify the entire code.***
 2. ***Edit the code as per the instructions.***
 3. ***Go to Java Resources -> src folder.***
-4. ***You will have 3 packages src/controller, src/model.***
+4. ***You will have 3 packages src/controller, src/utility.***
 5. ***Once the progressions are completed, follow the instructions to run the application and test your code.***
+
+## Testing
+1. ***Right click on your project and then run as - Junit.***
  
 ## Run the Project
 1. ***Right click on the project.***
@@ -38,26 +41,19 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 3. ***You can check the output in eclipse browser or in your browser.***
 
 ## Input Format
-1. ***There are 2 sets of inputs to this application.***
-2. ***First set of inputs are user details - name, number, age, height, weight and country.***
-3. ***Second set of input is the total of the all the answers to the quiz.***
-4. ***The quiz answer is a number which of type String.***
+1. ***There are three stages***
+2. ***In stage - 1, there is one input which is a String.***
+3. ***In stage - 2, there are two String inputs.***
+4. ***In stage - 3, there are two String inputs.***
 
 
 ## Output Format
-1 ***Output is a boolean value true or false.***
+1 ***Based on the function selected, it can be a string, integer or boolean value.***
 
 
 ## Progression - 1 
-1. ***Create a class called User inside the model package with the following arguments***
-   - ***private String name***
-   - ***private String number***
-   - ***private int age***
-   - ***private int height***
-   - ***private int weight***
-   - ***private String country***
-2. ***Generate appropriate getters and setters.***
-3. ***Generate the constructor User (String name, String number, int age, int height, int weight, String country) inside the User class.***
+1. ***Create a class called StringBasic inside the utility package.***
+2. ***
 
 ## Progression - 2
 1. ***Create an Abstract class BasicEligibility in the utility package***
