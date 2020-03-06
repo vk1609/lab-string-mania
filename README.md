@@ -4,7 +4,11 @@
 
 ## A Quick Introduction
 
+Emma is a quick learner. She's pretty enthu about becoming a developer. All her life, the only concept she has struggled to master is that of strings. Well, she calls them SSSSTTTTRRRRIIIINNNGGGGSSSS. That's how horrible she feels about them.
 
+Anyway, while the feeling still persists, she has somehow managed to understand & master them. On that note, she decided to create a simple game which will help understand string operations better. 
+
+Could you help Emma with it?
 
 ## What should you do
 ```
@@ -69,7 +73,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***Write a method to to check if two strings are equal by ignoring the case. for example prograd && PROgrAD should return true.*** 
 2. ***All the methods should return the value as boolean.***
 
-## Progression - 2 
+## Progression - 3 
 1. ***Go to StringBoolean class and create the following methods.***
    - ***Write a method to concatenate two strings.***
    - ***Write a method to split the first string based on the second string value.***
