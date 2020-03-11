@@ -28,7 +28,6 @@
 			 <input type="submit" name="end" id="tl" value="END"><br>
 
         </form>
-        <!--<img src="./Rectangle 4.png" alt="" class="top"> -->
         <img src="./asset/Rectangle 5.svg" alt="" class="body1">
         <img src="./asset/Rectangle 7.svg" alt="" class="footer1">
 
