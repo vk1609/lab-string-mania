@@ -53,7 +53,7 @@ public class ThirdLevelServlet extends HttpServlet {
 
 		if (seeAnswer != null) {
 			if (indexOf != null) {
-				String output = stringadvance.indexOf(input1, input2);
+				String output = stringadvance.indexvalue(input1, input2);
 				request.setAttribute("output", output);
 				RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/WEB-INF/views/level3.jsp");
 				rd.forward(request, response);

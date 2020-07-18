@@ -1,6 +1,6 @@
 package testing;
 
-/* Uncomment the below code to test your application
+
 
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -51,16 +51,16 @@ public class TestStringAdvanceMethod {
 
 	@Test
 	public void testIndexOfMethod() {
-		assertEquals("4", sam.indexOf("Javaprogram", "p"));
-		assertEquals("1", sam.indexOf("Java@", "a"));
-		assertEquals("4", sam.indexOf("Java ", " "));
+		assertEquals("4", sam.indexvalue("Javaprogram", "p"));
+		assertEquals("1", sam.indexvalue("Java@", "a"));
+		assertEquals("4", sam.indexvalue("Java ", " "));
 		try {
-			sam.indexOf("", "");
-			sam.indexOf("Java", "");
-			sam.indexOf("", "Java");
+			sam.indexvalue("", "");
+			sam.indexvalue("Java", "");
+			sam.indexvalue("", "Java");
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
 		}
 	}
 }
-*/
+
